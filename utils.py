@@ -71,7 +71,7 @@ class StandardText(tkinter.Text):
         self._hbar['command'] = self.xview
         self['undo'] = True 
         self['wrap'] = tkinter.NONE
-        self['background']= '#FDFAFA'
+        self['background']= '#FFF'
         self['foreground']= '#2020AA'
         self['font'] = ('courier new', 14, 'bold') # 'normal')#default font
 
